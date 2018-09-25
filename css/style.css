@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(225,225,225,0.6);
+}
+.navbar-text a{/*navbar text design*/
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.nav-link a{
+	    color: rgba(255, 255, 255, 0.5);
+}
+/*start of register form stylesheet*/
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.container{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+/*end of register form stylesheet*/
+.footer{/*stylesheet of footer from here*/
+	margin-bottom: 0px;
+	background-color: blue;
+	height: 300px;
+}
+.font-awsome{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	transform: translate(40%,100%);
+	display: flex;
+	}
+	.font-awsome li{
+		list-style: none;
+	}
+	.font-awsome li a{
+		position: relative;
+		width: 60px;
+		height: 60px;
+		background: #f1f1f1;
+		display: block;
+		text-align: center;
+		margin: 0px 10px;
+		border-radius: 50%;
+		padding: 6px;
+		box-sizing: border-box;
+		text-decoration: none;
+		box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+		background: linear-gradient(0deg, #ddd, #fff);
+		transition: .11s;
+	}
+	.font-awsome li a:hover{
+
+		box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.font-awsome li a .fa{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: linear-gradient(0deg, #fff, #ddd);
+	background: #ff0;
+	border-radius: 50%;
+	line-height: calc(60px -12px);
+	font-size: 40px;
+	color: #262626;
+	transition: .5s;
+}
+.font-awsome li:nth-child(1) a:hover .fa{
+	color: blue;
+}
+	.font-awsome li:nth-child(2) a:hover .fa{
+	color: #bc2a8d;
+}
+	.font-awsome li:nth-child(3) a:hover .fa{
+	color: blue;
+
+}
+.font-awsome li:nth-child(4) a:hover .fa{
+	color: white;
+	}
+	.font-awsome li:nth-child(5) a:hover .fa{
+	color: #dd4b39;
+}
+	.font-awsome li:nth-child(6) a:hover .fa{
+	
+}/*end of footer design*/
+.jumbotron{/*design of features page*/
+	text-align: center;
+	background-image: url(larg.jpg);
+	background-size: cover;
+	height: 350px;
+	color: white;
+}
+h3{
+	background: #d8d8d8;
+	height: 40px;
+}
+h3 a:hover{
+	text-decoration: none;
+}
+.col-one{
+	margin-left: 20px;
+}
+.col-two{
+	margin-left: 20px;
+}
+.col-three{
+	margin-left: 20px;
+}
+/*footer design*/
+.footer-model{
+	height: 60px;
+}
